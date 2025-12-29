@@ -1,0 +1,11 @@
+Lab 2 Architecture
+
+Internet → CloudFront (+ WAF) → ALB (locked to CloudFront) → Private EC2 → RDS
+
+Key constraints
+
+No one can hit ALB directly (even if they know ALB DNS)
+
+WAF enforcement happens at CloudFront edge
+
+DNS points to CloudFront, not ALB
