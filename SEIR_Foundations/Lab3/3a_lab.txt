@@ -89,7 +89,7 @@ So students can immediately “feel” the region.  Maybe hard for you, easy for
 
 Terraform Blueprint (High-signal skeleton)
 A) Providers (multi-region)---> Folder provider.tf
-B) Tokyo (minimal additions) — TGW + peering request---> Folder tokyo_tg.tf
+B) Tokyo (minimal additions) — TGW + peering request---> Folder tokyo_tgw.tf
 
 (Tokyo already has Lab 2 infra + RDS.)
 
